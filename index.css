@@ -1,0 +1,61 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 48px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 37px;
+  }
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 85%;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.item1 {
+  background-color: #0b69ff;
+}
+.item2 {
+  background-color: #2dca73;
+}
+.item3 {
+  background-color: #ffb800;
+}
+.item4 {
+  background-color: #ff0b37;
+}
+.image {
+  width: 22px;
+  height: 22px;
+  margin-left: 18px;
+}
+.content {
+  color: #ffffff;
+  padding-left: 18px;
+}
